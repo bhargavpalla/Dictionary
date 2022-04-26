@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="edittext_ht">50dp</dimen>
+    <dimen name="mgn">16dp</dimen>
+    <dimen name="rect_wdt">2dp</dimen>
+    <dimen name="radius">5dp</dimen>
+    <dimen name="pad">10dp</dimen>
+    <dimen name="img_back">50dp</dimen>
+    <dimen name="textsize">20sp</dimen>
+</resources>

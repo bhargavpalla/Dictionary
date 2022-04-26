@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dictionary"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editext"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edittext_ht"
+        android:layout_marginStart="@dimen/mgn"
+        android:layout_marginTop="@dimen/mgn"
+        android:layout_marginEnd="@dimen/mgn"
+        android:layout_marginBottom="@dimen/mgn"
+        android:background="@drawable/editext_border"
+        android:drawableLeft="@drawable/ic_baseline_search"
+        android:drawablePadding="@dimen/pad"
+        android:hint="@string/search"
+        android:inputType="text"
+        android:padding="@dimen/pad"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textStyle="normal">
+
+    </EditText>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edittext_ht"
+        android:layout_below="@+id/editext"
+        android:layout_margin="@dimen/mgn"
+        android:onClick="findfun"
+        android:textColor="@color/black"
+        android:background="@drawable/button_border"
+        android:text="@string/btn_text"
+
+        >
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+
+
+
+</RelativeLayout>
